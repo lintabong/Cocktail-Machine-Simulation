@@ -28,7 +28,7 @@ int d1,d2,d3,d4,d5,d6,d7,d8,d9;
 
 void setup() {
   lcd.begin(16, 2);
-  pinMode(A5, OUTPUT);
+  pinMode(A5, OUTPUT); 
   state = 0;
   a1,a2,a3,a4,a5,a6,a7,a8,a9 = 6;
   b1,b2,b3,b4,b5,b6,b7,b8,b9 = 6;
